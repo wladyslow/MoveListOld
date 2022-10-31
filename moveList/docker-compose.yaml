@@ -5,9 +5,9 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: 'movelist'
-      MYSQL_USER: 'wladyslow'
-      MYSQL_PASSWORD: 'qPloR1785'
-      MYSQL_ROOT_PASSWORD: 'qPloR1785'
+      MYSQL_USER: '*****'
+      MYSQL_PASSWORD: '*****'
+      MYSQL_ROOT_PASSWORD: '*****'
     ports:
       - '3319:3306'
     expose:
